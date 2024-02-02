@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>techincal-decumentation-page</title>
+    <link rel="stylesheet" href="indexCss.css">
+  </head>
+  <body>
+    <main id="main-doc">
+
+      <!-- nav section -->
+      <nav class="navbar">
+        <header class="nav-section-header">Java Documentation</header>
+        <div class = "navbar2">
+          <div class="section-selector"><p class="section-header"><a href="#Introduction" class="nav-link">Introduction</a></p></div>
+          <div class="section-selector"><p class="section-header"><a href="#Getting_Started" class="nav-link">Getting Started</a></p></div>
+          <div class="section-selector"> <p class="section-header"><a href="#Language_Basics" class="nav-link">Language Basics</a></p></div>
+          <div class="section-selector"><p class="section-header"><a href="#Object_Oriented_Programming_(OOP)" class="nav-link">Object-Oriented Programming (OOP)</a></p></div>
+          <div class="section-selector"><p class="section-header"><a href="#Advanced_Topics" class="nav-link">Advanced Topics</a></p></div>
+          <div class="section-selector"><p class="section-header"><a href="#APIs_and_Libraries" class="nav-link">APIs and Libraries</a></p></div>
+          <div class="section-selector"><p class="section-header"><a href="#Conclusion" class="nav-link">Conclusion</a></p></div>
+        </div>
+      </nav>
+
+      <!-- content section -->
+      <div class="main-section-div">
+
+        <!-- introduction section -->
+        <section class="main-section" id="Introduction">
+          <header class="content-header" class="nav-link">Introduction</header>
+          <p>Welcome to the comprehensive documentation for Java programming language. Java is a powerful, high-level, object-oriented programming language known for its portability, security, and robustness. This documentation aims to provide a thorough understanding of Java's syntax, features, and best practices.</p>
+        </section>
+
+        <!-- Getting Started section -->
+        <section class="main-section" id="Getting_Started">
+          <header class="content-header" class="nav-link" >Getting Started</header>
+          <h4>Installation</h4>
+          <p>To start programming in Java, you'll need to install the Java Development Kit (JDK). Follow these steps:</p>
+          <ol>
+            <li><p>Visit Oracle's <a href="">JDK download page</a>.</p></li>
+            <li>
+              <p>Download and install the appropriate JDK for your operating system.</p>
+              <p>Hello World Example</p>
+              <code>
+                public class HelloWorld {
+                  public static void main(String[] args) {
+                    System.out.println("Hello, World!");
+                  }
+                }
+              </code>
+            </li>
+            <li><p>Download Java compiler (recommended Visual studio code known as (vscode))</p></li>
+            <li><p>Open your vscode</p></li>
+            <li><p>Print your first hellow program</p></li>
+          </ol>
+        </section>
+
+        <!-- Language Basics -->
+        <section class="main-section" id="Language_Basics">
+          <header class="content-header" class="nav-link">Language Basics</header>
+
+          <h4 class="sub topic">Syntax</h4>
+          <p>Java syntax is based on C and C++ with some modifications. It's characterized by its readability and straightforward structure.</p>
+
+          <h4 class="sub topic">Variables and Data Types</h4>
+          <p>Java supports various data types such as int, double, boolean, etc., and variables hold data values.</p>
+          <code class="variables">
+            int x = 0;
+            boolean male = true;
+            String gender = "male";
+          </code>
+
+          <h4 class="sub topic">Control Flow</h4>
+          <p>Control structures like if-else, loops (for, while), and switch statements enable program flow control.</p>
+          <p style="margin-left: 5px; margin-top: 20px; margin-bottom: 5px;">if_else statement</p>
+          <code class="variables">
+            
+            if(condition){
+              //statement to execute when condition meant 
+            }else{
+              //statement to execute when contion is not meant 
+            }
+          </code>
+          <p style="margin-left: 5px; margin-top: 20px; margin-bottom: 5px;">for loop and while loop</p>
+          <code class="variables">
+            for(condition){
+              //statement to execute
+            }
+
+            while loop 
+            while(contion){
+              //statement to execute while condition is still false 
+            }
+          </code>
+          <p style="margin-left: 5px; margin-top: 20px; margin-bottom: 5px;">switch statement</p>
+          <code class="variables">
+             
+            int p = 3;
+            switch(p){
+              case 1:
+                //statement to execute when p is equal to 1
+                break;
+              case 2:
+                //statement to execute when p is equal to 2
+                break;
+              case 3:
+                //statement to execute when p is equal to 3
+                break;
+            }
+          </code>
+        </section>
+
+        <!-- Object-Oriented Programming (OOP) section -->
+        <section class="main-section" id="Object_Oriented_Programming_(OOP)">
+          <header class="content-header" class="nav-link">Object-Oriented Programming (OOP)</header>
+          <h4 class="sub topic">Classes and Objects</h4>
+          <p>Java is an object-oriented language. Classes represent objects, and methods define their behavior.</p>
+
+          <h4 class="sub topic" id="Inheritance">Inheritance</h4>
+          <p>Inheritance allows a class to inherit properties and behavior from another class.</p>
+
+          <h4 class="sub topic">Polymorphism</h4>
+          <p>Polymorphism enables objects to be treated as instances of their parent class, allowing for flexibility and extensibility.</p>
+        </section>
+
+        <!-- Advanced Topics section -->
+        <section class="main-section" id="Advanced_Topics">
+          <header class="content-header" class="nav-link">Advanced Topics</header>
+          <h4 class="sub topic">Exception Handling</h4>
+          <p>Java provides a robust exception handling mechanism using try-catch blocks.</p>
+
+          <h4 class="sub topic">Collections Framework</h4>
+          <p>The Collections Framework provides classes and interfaces for managing groups of objects.</p>
+
+          <h4 class="sub topic">Multithreading</h4>
+          <p>Java supports concurrent programming via multithreading, allowing multiple tasks to run concurrently.</p>
+
+          <h4 class="sub topic">File Handling</h4>
+          <p>Java I/O classes facilitate reading from and writing to files.</p>
+        </section>
+
+        <!-- APIs and Libraries section -->
+        <section class="main-section" id="APIs_and_Libraries">
+          <header class="content-header" class="nav-link">APIs and Libraries</header>
+          <h4 class="sub topic">Java Standard Library</h4>
+          <p>Java offers a rich set of APIs in its standard library, including java.util, java.io, and more.</p>
+
+          <h4 class="sub topic">Third-Party Libraries</h4>
+          <p>Various third-party libraries like Apache Commons, Gson, and JUnit offer additional functionality and tools for Java developers.</p>
+        </section>
+
+        <!-- Conclusion section -->
+        <section class="main-section" id="Conclusion">
+          <header class="content-header" class="nav-link">Conclusion</header>
+          <p>This documentation has covered fundamental aspects of Java programming, from language basics to advanced topics and best practices. Keep exploring and practicing to become proficient in Java development.</p>
+          <p>For further learning, visit the official Java documentation and other recommended resources.</p>
+        </section>
+        
+      </div>
+    </main>
+  </body>
+</html>
